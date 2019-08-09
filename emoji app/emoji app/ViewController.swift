@@ -24,20 +24,25 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
     }
     
-    var customMessage = ["That's awsome", "Keep it up", "You go girl"]
-
-func rad(_ sender: UIButton) {
+    
+ @IBAction func 😎(_ sender: UIButton) {
+    func rad(_ sender: UIButton) {
     _ = sender.titleLabel?.text
     let alertController = UIAlertController()
     _ = UIAlertController.init(title: "😎", message: "you're rad", preferredStyle: UIAlertController.Style.alert)
-    
-   present(alertController, animated: true, completion: nil)
-    alertController.addAction(UIAlertAction(title: "ok", style: UIAlertAction.Style.default, handler: nil))
+   
+    present(alertController, animated: true, completion: nil)
+        alertController.addAction(UIAlertAction(title: "ok", style: UIAlertAction.Style.default, handler: nil))
+        
+        let customMessage = ["That's awsome", "Keep it up", "You go girl"]
+
+        _ = UIAlertController.init(title: "rad", message: "\(customMessage.randomElement()!)", preferredStyle: UIAlertController.Style.alert)
+        
    
 
     _ = ["😎" : "rad", "😗" : "and i oop", "☹️" : "ugh", "🤬" : "major uggh"]
 }
 }
-
+}
 
 
