@@ -22,21 +22,33 @@
                                 <rect key="frame" x="20" y="68.000000000000014" width="107" height="225.33333333333337"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="99"/>
                                 <state key="normal" title="😎"/>
+                                <connections>
+                                    <action selector="rad:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Nwm-yq-gSI"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XZs-Gx-MaF">
                                 <rect key="frame" x="307" y="115.33333333333331" width="107" height="131"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="99"/>
                                 <state key="normal" title="😗"/>
+                                <connections>
+                                    <action selector="andioop:" destination="BYZ-38-t0r" eventType="touchUpInside" id="d2g-sy-EWZ"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pff-g4-F5B">
                                 <rect key="frame" x="5" y="656" width="107" height="131"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="99"/>
                                 <state key="normal" title="🙁"/>
+                                <connections>
+                                    <action selector="sadFace:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xXq-v5-I8Y"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cqJ-C1-cdh">
                                 <rect key="frame" x="307" y="656" width="107" height="131"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="99"/>
                                 <state key="normal" title="🤬"/>
+                                <connections>
+                                    <action selector="madFace:" destination="BYZ-38-t0r" eventType="touchUpInside" id="e0Q-u5-DPn"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SOO TELL ME HOW YA FEELIN..." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wLq-yS-Bqs">
                                 <rect key="frame" x="23" y="375" width="380" height="24"/>
@@ -74,12 +86,6 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
-                    <connections>
-                        <outlet property="andIoop" destination="XZs-Gx-MaF" id="8B2-jT-0Cr"/>
-                        <outlet property="bigMad" destination="cqJ-C1-cdh" id="hqt-iq-4el"/>
-                        <outlet property="rad" destination="Nh7-Qz-tgg" id="PQA-Wf-Y3f"/>
-                        <outlet property="sad" destination="pff-g4-F5B" id="1aU-dx-zA4"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
